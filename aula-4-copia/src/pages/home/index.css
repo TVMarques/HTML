@@ -1,0 +1,21 @@
+.container{
+    display: flex;/*assim deixa o container flexbox*/
+    flex-direction: row;/*assim coloca o conteúdo em qual forma eles se agruparão, em linha ou coluna*/
+    gap:10px; /*esse CSS dá um espaçamento entre cada um dos itens do container*/
+    
+    justify-content: space-evenly;/*Faz o alinhamento horizontal//\\outros comandos:fles-start , flex-end, sspace-bettween, space-around e space-evenly*/
+    align-items: flex-start;/*Faz alinhamento vertical//\\Mesmos comandos do css de cima*/
+    flex-wrap: wrap;/*Faz com que o conteúdo ao final do container passe para linha de baixo se não couber*/
+
+    padding: 5px; /*Promove um espaço interno no container, não em cada ítem*/
+    background-color: cornflowerblue;
+    height: 400px;
+}
+
+.container p{
+    font-size: 22px;
+    color: #fff;
+    background-color: blueviolet;
+    width: 100px;
+    height:100px;
+}

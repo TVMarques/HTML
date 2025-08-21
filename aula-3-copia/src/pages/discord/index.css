@@ -1,0 +1,53 @@
+body{
+    background-color: white;
+}
+
+.sessao-biblioteca{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    padding: 90px;;
+    background-color: rgb(228, 224, 224);
+}
+
+.sessao-biblioteca .textos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+
+.sessao-biblioteca .textos h1{
+    font: 500 48px/48px 'Discord';
+    color: #23272A;
+    line-height: 120%;
+}
+
+.sessao-biblioteca .textos p{
+    font: 400 16px/25px 'Discord';
+    color: grey;
+    
+}
+
+.sessao-biblioteca .textos a{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    font: 600 16px/25px 'Discord';
+    color: #2b2f31;
+    text-decoration: none;/*tira a linha do link*/
+    
+}
+
+.sessao-biblioteca img{
+    width: 450px;
+    border-radius: 10px;/*Deixa a borda arredondada*/
+}
+
+.sessao-biblioteca .textos .arrow{
+    width: 19px;
+}

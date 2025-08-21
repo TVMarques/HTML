@@ -1,0 +1,26 @@
+h1{
+    margin-bottom: 5px;;
+}
+
+.grupo{
+    border: 1px solid #000;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    padding: 30px 100px;
+}
+
+.pixel{
+    width: 1200px;
+}
+
+.porcentagem{
+    width: 50%;
+}
+
+.view-width{
+    width: 50vw;
+}
+
+.view-height {
+    height: 50vh; 
+}

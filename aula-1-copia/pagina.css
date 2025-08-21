@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(192, 107, 42);
+}
+
+h1, h2, h3, h4, h5, h6, .texto-apagado{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1
+{
+    color: red;
+    font-size: 50px;
+}
+
+h2{
+    color:rgb(139, 62, 212); 
+    text-decoration:underline;
+    text-transform: uppercase;
+}
+
+img{
+    width:1500px;
+    height: 1000px;
+}
+
+p{
+    font-size: 16px;
+    color: green;
+}
+
+.texto-apagado{
+    color: rgb(190, 185, 185);
+}
+
+.maiusculo{
+    text-transform: uppercase;
+}

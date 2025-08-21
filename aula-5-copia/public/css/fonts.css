@@ -1,0 +1,36 @@
+/*Deve-se importar as fontes baixadas do discord*/
+@font-face {
+    font-family: "Discord";
+    src: url('/public/assets/fonts/discord-normal.woff2');
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: "Discord";
+    src: url('/public/assets/fonts/discord-Normal-Bold.woff');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Discord";
+    src: url('/public/assets/fonts/discord-medium.woff2');
+    font-weight: 550;
+}
+
+@font-face {
+    font-family: "Discord";
+    src: url('/public/assets/fonts/discord-semibold.woff2');
+    font-weight: 650;
+}
+
+@font-face {
+    font-family: "Discord";
+    src: url('/public/assets/fonts/discord-bold.woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Discord";
+    src: url('/public/assets/fonts/Discord-extrabold.woff2');
+    font-weight: 800;
+}

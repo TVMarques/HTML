@@ -1,0 +1,170 @@
+body{
+    background-color: white;
+}
+
+.sessao-biblioteca{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    padding: 90px;;
+    background-color: rgb(228, 224, 224);
+}
+
+.sessao-biblioteca .textos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+
+.sessao-biblioteca .textos h1{
+    font: 500 48px/48px 'Discord';
+    color: #23272A;
+    line-height: 120%;
+}
+
+.sessao-biblioteca .textos p{
+    font: 400 16px/25px 'Discord';
+    color: grey;
+    
+}
+
+.sessao-biblioteca .textos a{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    font: 600 16px/25px 'Discord';
+    color: #2b2f31;
+    text-decoration: none;/*tira a linha do link*/
+    
+}
+
+.sessao-biblioteca img{
+    width: 450px;
+    border-radius: 10px;/*Deixa a borda arredondada*/
+}
+
+.sessao-biblioteca .textos .arrow{
+    width: 19px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.secao-inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;/*alinha tudo no centro*/
+    gap: 150px;
+    padding: 22px;
+
+    background-color: #5865f6;
+    color: #fff;
+}   
+
+.secao-inicio header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*Cada ícone nav ocupa um espaço de um lado ee outro*/
+    align-items: center;
+
+    max-width: 1200px;/*Largura máxima do header*/
+    width: 100%; /*Ocupa 100% dos 1200px acima*/
+}
+
+.secao-inicio header .logo{
+    width: 130px;
+}
+
+.secao-inicio header nav{
+    display: flex;
+    flex-direction: row ;
+    gap: 45px;/*Função para espaço entre*/
+    
+}
+
+.secao-inicio header nav a{
+    font: 600 16px 'Discord';
+}
+
+.secao-inicio header button{
+    background-color: #fff;
+    color:#000;
+    border: none;
+    font: 700 14px 'Discord';
+    padding: 10px 14px;
+    border-radius: 100px;
+}
+
+.secao-inicio main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.secao-inicio main .textos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    width: 550px;
+}
+
+.secao-inicio main .textos h1{
+    font: 800 50px/50px 'Discord';
+    text-transform: uppercase;/*Deixa tudo em letra maiúscula*/
+}
+
+.secao-inicio main .textos p{
+    font: 400 16px/22px 'Discord';
+}
+
+.secao-inicio main .capa{
+    width: 600px;
+
+    position: relative;
+    left: 62px;
+    bottom: 40px;
+}
+
+.secao-inicio .botoes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
+
+    max-width: 1200px;
+    width: 100%;
+
+    position: relative;
+    bottom: 72px;
+}
+
+.secao-inicio .botoes a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font: 800 20px 'Discord';
+    
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #000;
+
+    width: 360px;
+    height: 100px;
+
+    border-radius: 12px;
+    box-shadow: 5px 5px 0 1px #57F287;/*Deixa o botão com aspecto esverdeado*/
+}
